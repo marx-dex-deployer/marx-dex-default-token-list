@@ -4,6 +4,7 @@ const ropsten = require('./tokens/ropsten.json');
 const rinkeby = require('./tokens/rinkeby.json');
 const goerli = require('./tokens/goerli.json');
 const kovan = require('./tokens/kovan.json');
+const evmos = require('./tokens/evmos.json');
 
 module.exports = function buildList() {
   const parsed = version.split('.');
@@ -16,7 +17,7 @@ module.exports = function buildList() {
       'patch': +parsed[ 2 ]
     },
     'tags': {},
-    'logoURI': 'ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir',
+    'logoURI': 'https://raw.githubusercontent.com/marx-dex-deployer/marx-dex-interface/main/src/assets/images/logo.png',
     'keywords': [
       'marx dex',
       'default'
@@ -26,7 +27,8 @@ module.exports = function buildList() {
       ...ropsten,
       ...goerli,
       ...kovan,
-      ...rinkeby
+      ...rinkeby,
+      ...evmos
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
