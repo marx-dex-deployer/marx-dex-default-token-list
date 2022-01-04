@@ -1,6 +1,6 @@
 {
   "name": "@marx-dex/marx-dex-default-token-list",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "◦ The MarX DEX default token list",
   "main": "build/marx-dex-default.tokenlist.json",
   "scripts": {
