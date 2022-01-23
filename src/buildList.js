@@ -1,9 +1,4 @@
 const { version } = require('../package.json');
-const mainnet = require('./tokens/mainnet.json');
-const ropsten = require('./tokens/ropsten.json');
-const rinkeby = require('./tokens/rinkeby.json');
-const goerli = require('./tokens/goerli.json');
-const kovan = require('./tokens/kovan.json');
 const evmos = require('./tokens/evmos.json');
 
 module.exports = function buildList() {
@@ -20,14 +15,10 @@ module.exports = function buildList() {
     'logoURI': 'https://raw.githubusercontent.com/marx-dex-deployer/marx-dex-interface/main/src/assets/images/logo.png',
     'keywords': [
       'marx dex',
+      'evmos',
       'default'
     ],
     tokens: [
-      ...mainnet,
-      ...ropsten,
-      ...goerli,
-      ...kovan,
-      ...rinkeby,
       ...evmos
     ]
       // sort them by symbol for easy readability
