@@ -1,11 +1,11 @@
 [
   {
-    "name": "Wrapped Ether",
+    "name": "Wrapped Evmos",
     "address": "0x2a55419038102d9B671f031A7B4Fc99F1582d771",
-    "symbol": "WETH",
+    "symbol": "WEVMOS",
     "decimals": 18,
     "chainId": 9000,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/marx-dex-deployer/marx-dex-interface/main/src/assets/images/wevmos.png"
   },
   {
     "name": "Dai Stablecoin",
@@ -13,7 +13,7 @@
     "symbol": "DAI",
     "decimals": 18,
     "chainId": 9000,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
   },
   {
     "name": "USD Coin",
